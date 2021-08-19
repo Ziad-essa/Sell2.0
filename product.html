@@ -1,0 +1,902 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/hk-grotesk.min.css"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/style.css">
+    <title>product</title>
+</head>
+<body>
+  <header>
+  <div class="topbar navbar">
+    <div class="container-fluid ps-4 pe-4 ps-lg-5 pe-lg-5">
+    <div>
+      <span class="d-none d-sm-inline-block phonenumber" >
+        <span style="margin-right: 4px;"><i class="bi bi-telephone"></i></span>
+        <span>020-800-456-747</span>
+      </span>
+      <span class=" d-none  d-sm-none d-md-none d-lg-inline-block  shipping">Free shipping on orders over $300</span>
+     
+    </div>
+    <div> 
+      <span><div class="btn-group">
+        <button type="button" class=" button1 dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+          English
+        </button>
+        <ul class="dropdown-menu dropdown-menu-end ">
+          <li><a class="dropdown-item" href="#">German</a></li>
+          <li><a class="dropdown-item" href="#">French</a></li>
+        </ul>
+      </div></span>
+    <span><div class="btn-group">
+      <button type="button" class=" button2 dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+        USD
+      </button>
+      <ul class="dropdown-menu dropdown-menu-end ">
+        <li><a class="dropdown-item" href="#">EUR</a></li>
+        <li><a class="dropdown-item" href="#">GBP</a></li>
+      </ul>
+    </div></span>
+   </div>
+  </div>
+  </div>
+      <!-- --------------------------------------
+                      navbar2lg
+       ------------------------------------------------>
+       <nav class="navbar navbar-expand-lg navbar-light  my-nav d-lg-flex d-none" id="navbar1" >
+        <div class="container-fluid ps-5 pe-5 ">
+          <div>
+            <a class="navbar-brand " href="#" id="navbar-brand1" style="color: #343a40;"><span>SELL</span></a>
+          </div>
+          <div  class="navbar h-100" style=" width: 65%;">
+            <ul class="navbar-nav d-flex justify-content-around flex-row w-100" >
+              
+              <li class="nav-item"  >
+                <a class="nav-link active" aria-current="page" href="index.html" id="navitem1" style="color: #343a40;">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="shop.html" id="navitem2" style="color: #343a40;">SHOP</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html" id="navitem3" style="color: #343a40;">CONTACT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html" id="navitem4" style="color: #343a40;">ABOUT US</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: #343a40;">
+                  PAGES
+                </a>
+                <ul class="dropdown-menu "  aria-labelledby="navbarDropdown1">
+                  <li><a class="dropdown-item" href="index.html">Home page</a></li>
+                  <li><a class="dropdown-item" href="shop.html">Shop page</a></li>
+                  <li><a class="dropdown-item" href="product.html">Product page</a></li>
+                  <li><a class="dropdown-item" href="cart.html">Cart page</a></li>
+                  <li><a class="dropdown-item" href="orders.html">Orders page</a></li>
+                  <li><a class="dropdown-item" href="order-number.html">Orders number</a></li>
+                  <li><a class="dropdown-item" href="signup-logout.html">Sign up</a></li>
+                  <li><a class="dropdown-item" href="profile.html">Profile page</a></li>
+                  <li><a class="dropdown-item" href="address.html">Address page</a></li>
+                  <li><a class="dropdown-item" href="checkout1.html">Checkout1 page</a></li>
+                  <li><a class="dropdown-item" href="checkout2.html">Checkout2 page</a></li>
+                  <li><a class="dropdown-item" href="checkout3.html">Checkout3 page</a></li>
+                  <li><a class="dropdown-item" href="checkout4.html">Checkout4 page</a></li>
+                  <li><a class="dropdown-item" href="checkout5.html">Checkout5 page</a></li>
+                  <li><a class="dropdown-item" href="contact.html">Contact page</a></li>
+                  <li><a class="dropdown-item" href="about.html">About page</a></li>
+                </ul>
+              </li>
+            
+            </ul> 
+          </div>
+              <div class="d-flex iconbox justify-content-between"  style="color: #343a40;" id="iconbox"> 
+              <i class="bi bi-search icons"  data-bs-toggle="modal" data-bs-target="#search"></i>
+              <a href="signup-logout.html"><i class="bi bi-people icons"></i> </a>
+              <a href="cart.html" class="position-relative"><i class="bi bi-cart icons"></i>
+              <div class="icon-badge"  id="icon-badge1" style="background-color: #343a40; color: white;">3</div>
+              </a>
+              </div>
+        </div>
+      </nav>
+       <!-- --------------------------------------
+                      navbar2 mobile
+       ------------------------------------------------>
+       <nav class="navbar  navbar-light  navbar-nav-scroll d-lg-none d-flex my-nav2 " id="navbar2">
+       <div class="container-fluid ps-4 pe-4">
+         <a class="navbar-brand" href="index.html" id="brand2" style="color: #343a40;"><span>SELL</span></a>
+         <span  type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+           aria-expanded="false" aria-label="Toggle navigation" id="navbutton1" >
+           <i class="bi bi-list" style=" font-size: 20px !important;font-weight: bold !important;color: #343a40;"></i>
+         </span>
+         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+             <li class="nav-item "  >
+               <a class="nav-link active " aria-current="page" href="index.html"
+               style="Font-size:14.4px;;color: #343a40 !important;" >Home</a>
+             </li>
+             <li class="nav-item ">
+               <a class="nav-link" href="shop.html"
+               style="Font-size:14.4px;color: #343a40 !important;">SHOP</a>
+             </li>
+             
+             <li class="nav-item">
+               <a class="nav-link" href="contact.html"
+               style="Font-size:14.4px;;color: #343a40 !important;">CONTACT</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="about.html"
+               style="Font-size:14.4px;;color: #343a40 !important;">ABOUT US</a>
+             </li>
+             <li class="nav-item dropdown">
+               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"
+               style="Font-size:14.4px;;color: #343a40 !important;">
+                 PAGES
+               </a>
+               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="index.html">Home page</a></li>
+                <li><a class="dropdown-item" href="shop.html">Shop page</a></li>
+                <li><a class="dropdown-item" href="product.html">Product page</a></li>
+                <li><a class="dropdown-item" href="cart.html">Cart page</a></li>
+                <li><a class="dropdown-item" href="orders.html">Orders page</a></li>
+                <li><a class="dropdown-item" href="order-number.html">Orders number</a></li>
+                <li><a class="dropdown-item" href="signup-logout.html">Sign up</a></li>
+                <li><a class="dropdown-item" href="profile.html">Profile page</a></li>
+                <li><a class="dropdown-item" href="address.html">Address page</a></li>
+                <li><a class="dropdown-item" href="checkout1.html">Checkout1 page</a></li>
+                <li><a class="dropdown-item" href="checkout2.html">Checkout2 page</a></li>
+                <li><a class="dropdown-item" href="checkout3.html">Checkout3 page</a></li>
+                <li><a class="dropdown-item" href="checkout4.html">Checkout4 page</a></li>
+                <li><a class="dropdown-item" href="checkout5.html">Checkout5 page</a></li>
+                <li><a class="dropdown-item" href="contact.html">Contact page</a></li>
+                <li><a class="dropdown-item" href="about.html">About page</a></li>   
+              </ul>
+             </li>
+           </ul>
+           <div class="d-flex iconbox justify-content-between" id="#iconbox1">
+             <span>
+            <span  data-bs-toggle="modal" data-bs-target="#search"> <i class="bi bi-search icons"></i>
+             <span class="d-none d-sm-inline-block icondescription">SEARCH</span>
+            </span>
+           </span>
+           <span>
+             <a href="signup-logout.html">
+             <i class="bi bi-person-circle icons"></i>
+             <span class="d-none d-sm-inline-block icondescription">LOG IN</span>
+           </a>
+           </span>
+         <span>
+           <a href="cart.html">
+             <i class="bi bi-cart icons"></i>
+             <span class="d-none d-sm-inline-block icondescription">VIEW CART</span>
+           </a>
+           </span>   
+           </div>
+         </div>
+       </div>
+     </nav>
+    
+      
+    <div class="container-fluid mt-3">
+        <div class="row flex-lg-row flex-column-reverse ">
+            <!-- product img -->
+            <div class="col-lg-6  col-md-12">
+                <div id="carouselExampleDark" class="carousel  slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item carousel-item2 active">
+                        <img src="img/24.jpg" class="d-block h-100 w-100 " style="object-fit: cover;" alt="...">
+                        </div>
+                      <div class="carousel-item carousel-item2 " >
+                        <img src="img/23.jpg" class="d-block h-100 w-100" style="object-fit: cover;" alt="...">
+                        
+                      </div>
+                      <div class="carousel-item carousel-item2">
+                        <img src="img/25.jpg" class="d-block w-100 h-100" style="object-fit: cover;" alt="...">
+                        
+                      </div>
+                      <div class="carousel-item carousel-item2">
+                        <img src="img/22.jpg" class="d-block w-100 h-100" style="object-fit: cover;" alt="...">
+                        
+                      </div>
+                      <div class="carousel-item carousel-item2">
+                        <img src="img/21.jpg" class="d-block w-100 h-100" style="object-fit: cover;" alt="...">
+                        
+                      </div>
+                    </div>
+                   </div>
+            </div>
+
+
+                <!-- porduct details --> 
+            <div class="col-lg-6  col-md-12 ps-lg-5 ps-xl-5  ">
+              <div>
+                <nav aria-label="breadcrumb ">
+                  <ol class="breadcrumb mt-3 mb-4">
+                    <li class="breadcrumb-item hero1p"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item hero1p"><a href="shop.html">Tops and Jackets</a></li>
+                    <li class="breadcrumb-item active hero1p" aria-current="page">Modern Jacket</li>
+                  </ol>
+                </nav>
+              </div>
+
+              <h1 class="hero2p mb-4">Modern Jacket</h1>
+
+              <div class="d-flex justify-content-lg-between justify-content-md-between justify-content-sm-between
+               flex-lg-row flex-md-row flex-sm-row flex-column
+               col-lg-12 col-xl-9 col-md-12  mb-4">
+                <div class="mb-2  mb-sm-0 mb-md-0 mb-lg-0">
+                  <span class="sell-price">$65.00</span>
+                  <span class="real-price"> $90.00</span>
+                </div>
+                <div>
+                  <span >
+                    <i class="review-icon bi bi-star-fill"></i>
+                    <i class="review-icon bi bi-star-fill"></i>
+                    <i class="review-icon bi bi-star-fill"></i>
+                    <i class="review-icon bi bi-star-fill"></i>
+                    <i class="review-icon bi bi-star-fill" style="color: #dee2e6;"></i>
+                  </span>
+                  <span class="review-num">
+                    25 REVIEWS
+                  </span>
+                </div>
+              </div>
+
+
+              <p class="product-dis col-lg-9 col-xl-9 col-md-12 mb-4">
+                Lorem ipsum dolor sit amet,
+                 consectetur adipiscing elit,
+                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                 Ut enim ad minim veniam, quis nostrud exercitation ullamco
+              </p>
+              <div class="row">
+              <div class="col-lg-12 col-xl-12 col-md-6 mb-4">
+                <form action="action_page.php" class="product-det">
+                <div class="mb-1">
+                  <span class="sizep">SIZE</span>
+                  <span class="size2p">(required)</span>
+                </div>
+                <input type="radio" id="one" name="size" value="small">
+                <label for="one">SMALL</label>
+              
+                <input type="radio" id="two" name="size" value="medium">
+                <label for="two" style="width: 80px;">MEDIUM</label>
+              
+                <input type="radio" id="three" name="size" value="large">
+                <label for="three">LARGE</label>
+              </form>
+              </div>
+              <div class="col-lg-12 col-xl-12 col-md-6 mb-4">
+                <form action="action_page.php" class="product-det">
+                  <div class="mb-1">
+                    <span class="sizep">TYPE</span>
+                    <span class="size2p">(required)</span>
+                  </div>
+                  <input type="radio" id="four" name="type" value="hoodie">
+                  <label for="four">HOODIE</label>
+                
+                  <input type="radio" id="five" name="type" value="college">
+                  <label for="five" style="width: 80px;">COLLEGE</label>
+                
+                  
+                </form>
+
+              </div>
+              <div class="col-12 mb-4">
+                <form action="action_page.php" class="test2">
+                  <div class="mb-1" >
+                    <span class="sizep">COLOUR</span>
+                    <span class="size2p">(required)</span>
+                  </div>
+
+                  <input type="radio" id="six" name="color" value="lightblue">
+                  <label for="six">
+                  <div class="colors lightblue"></div>
+
+                  </label>
+                
+                  <input type="radio" id="seven" name="color" value="white">
+                  <label for="seven">
+                    <div class="colors white"></div>
+                  </label>
+                
+                  <input type="radio" id="eight" name="color" value="lightred">
+                  <label for="eight">
+                    <div class="colors lightred"></div>
+                  </label>
+                
+                  <input type="radio" id="nine" name="color" value="pup">
+                  <label for="nine">
+                    <div class="colors pup"></div>
+                  </label>
+                
+                  
+                </form>
+
+              </div>
+            </div>
+
+          <label for="item1" class="d-block">
+            <div class="mb-1" >
+              <span class="sizep">ITEMS</span>
+              <span class="size2p">(required)</span>
+            </div>
+          </label>
+              <input type="number" id="item1" value="3" class="cart-input mb-4" >
+            
+
+
+            <div class="row ">
+              <div class="col-9 align-items-lg-center align-items-md-center align-items-sm-center  d-flex flex-lg-row  flex-md-row flex-sm-row flex-column">
+              
+                <a href="#">
+                  <button class="me-2 mb-2  mb-sm-0 mb-md-0 mb-lg-0 bigone">
+                  <i class="bi bi-cart-plus-fill"></i>
+                  <span>ADD TO CART</span>
+                </button>
+              </a>
+              <a href="#">
+                <button class="smallone mb-4 mb-lg-0">
+                  <i class="bi bi-heart"></i>
+                  <span>ADD TO WISHLIST</span>
+                </button>
+              </a>
+            </div>
+              
+            </div>
+
+
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <nav class="container " style="margin-top: 110px;">
+      <div class="nav nav-tabs flex-column flex-sm-row align-items-start "  id="nav-tab" role="tablist">
+        <button class="nav-link active " id="nav-DESCRIPTION-tab" data-bs-toggle="tab" data-bs-target="#nav-DESCRIPTION" type="button" role="tab" aria-controls="nav-home" aria-selected="true">DESCRIPTION</button>
+        <button class="nav-link" id="nav-ifo-tab" data-bs-toggle="tab" data-bs-target="#nav-ifo" type="button" role="tab" aria-controls="nav-ifo" aria-selected="false">ADDITIONAL INFORMATION</button>
+        <button class="nav-link " id="nav-REVIEW-tab" data-bs-toggle="tab" data-bs-target="#nav-REVIEW" type="button" role="tab" aria-controls="nav-REVIEW" aria-selected="false">REVIEW</button>
+      </div>
+    </nav>
+    <div class="tab-content container "  id="nav-tabContent">
+      <div class="tab-pane fade show active ps-4 pe-3  " id="nav-DESCRIPTION" role="tabpanel" aria-labelledby="nav-DESCRIPTION-tab">
+        <div class="description mt-4">
+          Lorem ipsum dolor sit amet,
+           consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+           LOLUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            LOLDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+            Excepteur sint occaecat cupidatat non proident,
+           sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </div>
+      
+        <div class="description mt-4">
+          Lorem ipsum dolor sit amet,
+           consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+           LOLUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            LOLDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+            Excepteur sint occaecat cupidatat non proident,
+           sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </div>
+      
+      </div>
+      <div class="tab-pane fade ps-4 pe-3" id="nav-ifo" role="tabpanel" aria-labelledby="nav-ifo-tab">
+        <div class="row ps-0">
+          <div class="col-lg-6 col-12 ps-0  mt-4">
+        <table class=" table ">
+          <tbody>
+            <tr>
+              <td class="table-cell-left">PRODUCT #</td>
+              <td class="table-cell-right">Lorem ipsum dolor sit amet</td>
+            </tr>
+            <tr>
+              <td class="table-cell-left">AVAILABLE PACKAGING</td>
+              <td class="table-cell-right">LOLDuis aute irure dolor in reprehenderit</td>
+            </tr>
+            <tr>
+              <td class="table-cell-left">WEIGHT</td>
+              <td class="table-cell-right">dolor sit amet</td>
+            </tr>
+            <tr >
+              <td class="table-cell-left" style="border: none !important;">SUNT IN CULPA QUI</td>
+              <td class="table-cell-right" style="border: none !important;">Lorem ipsum dolor sit amet</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+
+      <div class="col-lg-6 col-12 ps-0 ps-lg-3 mt-2 mt-lg-4 ">
+        <table class=" table ">
+          <tbody>
+            <tr>
+              <td class="table-cell-left">PRODUCT #</td>
+              <td class="table-cell-right">Lorem ipsum dolor sit amet</td>
+            </tr>
+            <tr>
+              <td class="table-cell-left">AVAILABLE PACKAGING</td>
+              <td class="table-cell-right">LOLDuis aute irure dolor in reprehenderit</td>
+            </tr>
+            <tr>
+              <td class="table-cell-left">WEIGHT</td>
+              <td class="table-cell-right">dolor sit amet</td>
+            </tr>
+            <tr>
+              <td class="table-cell-left" style="border: none !important;">SUNT IN CULPA QUI</td>
+              <td class="table-cell-right" style="border: none !important;">Lorem ipsum dolor sit amet</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+
+      </div>
+        
+      </div>
+      <div class="tab-pane fade  mt-3 ps-4 pe-3"  id="nav-REVIEW" role="tabpanel" aria-labelledby="nav-REVIEW-tab">
+        <!-- review 1 -->
+        <div class="col-lg-9 col-12  d-flex ps-0 border-bottom  align-items-center  pb-4">
+          <div class="d-flex flex-column align-items-center justify-content-center  me-3 me-md-4 me-lg-4">
+
+            
+          <div class="d-inline-flex align-items-center justify-content-center mt-3 review-pics-cont"  >
+              <img src="img/29.jpg" alt="" class="review-pics">
+          </div>
+          <div class="mt-3 review-date">DEC 2018</div>
+        </div>
+
+
+          <div class="d-inline-flex flex-column">
+            <div class="name mb-2">Han Solo</div>
+            <div class="review-icon2 mb-2">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+            <div class="review-dit">
+              One morning,
+               when Gregor Samsa woke from troubled dreams,
+                he found himself transformed in his bed into a horrible vermin.
+                 He lay on his armour-like back,
+                and if he lifted his head a little he could see his brown belly,
+               slightly domed and divided by arches into stiff sections
+            </div>
+          </div>
+
+
+        </div>
+
+<!-- review 2 -->
+        <div class="col-lg-9 col-12  d-flex ps-0 border-bottom mt-3 align-items-center  pb-4">
+          <div class="d-flex flex-column align-items-center justify-content-center  me-3 me-md-4 me-lg-4">
+          <div class="d-inline-flex align-items-center justify-content-center mt-3 review-pics-cont"  >
+              <img src="img/28.jpg" alt="" class="review-pics">
+          </div>
+          <div class="mt-3 review-date">DEC 2018</div>
+        </div>
+
+
+          <div class="d-inline-flex flex-column">
+            <div class="name mb-2">Luke Skywalker</div>
+            <div class="review-icon2 mb-2">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+            <div class="review-dit">
+              The bedding was hardly able to cover it and seemed ready to slide off any moment.
+               His many legs, pitifully thin compared with the size of the rest of him,
+                waved about helplessly as he looked
+              . "What's happened to me?" he thought. It wasn't a dream.
+            </div>
+          </div>
+
+          
+        </div>
+
+<!-- review 3 -->
+        <div class="col-lg-9 col-12  d-flex ps-0 border-bottom  align-items-center mt-3 pb-4">
+          <div class="d-flex flex-column align-items-center justify-content-center  me-3 me-md-4 me-lg-4">
+          <div class="d-inline-flex align-items-center justify-content-center mt-3 review-pics-cont"  >
+              <img src="img/27.jpg" alt="" class="review-pics">
+          </div>
+          <div class="mt-3 review-date">DEC 2018</div>
+        </div>
+
+
+          <div class="d-inline-flex flex-column">
+            <div class="name mb-2">Princess Leia</div>
+            <div class="review-icon2 mb-2">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+            <div class="review-dit">
+              His room, a proper human room although a little too small,
+               lay peacefully between its four familiar walls.
+               A collection of textile samples lay spread out on the table.
+            </div>
+          </div>
+
+          
+        </div>
+
+
+<!-- review 4 -->
+        <div class="col-lg-9 col-12  d-flex ps-0 border-bottom  align-items-center mt-3  pb-4">
+          <div class="d-flex flex-column align-items-center justify-content-center  me-3  me-md-4 me-lg-4">
+          <div class="d-inline-flex align-items-center justify-content-center mt-3 review-pics-cont"  >
+              <img src="img/26.jpg" alt="" class="review-pics">
+          </div>
+          <div class="mt-3 review-date">DEC 2018</div>
+        </div>
+
+
+          <div class="d-inline-flex flex-column">
+            <div class="name mb-2">Jabba Hut</div>
+            <div class="review-icon2 mb-2">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+            <div class="review-dit">
+              Samsa was a travelling salesman - 
+              and above it there hung a picture that he had 
+              recently cut out of an illustrated magazine
+               and housed in a nice, gilded frame.
+            </div>
+          </div>
+
+          
+        </div>
+
+
+<div class="row  mt-5  d-flex justify-content-center justify-content-lg-start "  >
+  <form class="row   col-lg-9 col-md-12   col-12" action="#" >
+    <div class=" col-12 review-title mb-4  ">LEAVE A REVIEW</div>
+  
+    <div class="col-lg-6 col-md-6 col-sm-6 col-12 d-flex flex-column"> 
+      <label for="yname" class="label-style mb-2">YOUR NAME *</label>
+      <input placeholder="Enter your name" type="text" id="yname" name="yname" class="review-input1 mb-3">
+    </div>
+
+
+    <div class="col-lg-6 col-md-6 col-sm-6 col-12 d-flex flex-column"> 
+      <label for="rate" class="label-style mb-2">YOUR RATING *</label>
+      <select  id="rate" class="review-input2 form-select mb-3">
+        <option selected>Choose...</option>
+        <option value="1">★★★★★ (5/5)</option>
+        <option value="2">★★★★☆ (4/5)</option>
+        <option value="3">★★★☆☆ (3/5)</option>
+        <option value="4">★★☆☆☆ (2/5)</option>
+        <option value="5">★☆☆☆☆ (1/5)</option>
+      </select>
+    </div>
+
+
+    <div class="col-12 d-flex flex-column"> 
+      <label for="e-mail" class="label-style mb-2">YOUR EMAIL *</label>
+      <input placeholder="Enter your email" type="email" id="e-mail" name="e-mail" class="review-input1 mb-3">
+    </div>
+
+
+    
+    <div class="col-12 d-flex flex-column"> 
+      <label for="REVIEW TEXT" class="label-style mb-2">REVIEW TEXT *</label>
+      <textarea placeholder="Enter your review" name="review" id="REVIEW TEXT" cols="30" rows="5" class="textarea1 mb-3" ></textarea>
+      
+    </div>
+    <div>
+    <input type="submit" value="POST REVIEW" class="submit-btn">
+  </div>
+
+
+  </form>
+</div>
+
+      </div>
+    </div>
+   
+
+
+
+
+<div class="container ps-3 pe-3">
+    <div class="row " style="margin-top: 70px;">
+      <div class="col-12 d-flex justify-content-center mb-5 likes">YOU MIGHT ALSO LIKE</div>
+      <!-- card1 -->
+<div class="col-lg-2  col-md-4   col-6">
+<div class="card " >
+<img src="img/9.jpg" class="card-img cardborder" alt="...">
+<div class="ribbon ribboncol1">fresh</div>
+<div class="card-img-overlay cardborder1 d-flex align-items-center justify-content-around ">
+        
+<!-- icon2 -->
+<a href="#">
+  <div class="iconbox4">
+  <i class="bi bi-search" style="margin-right: 5px;"></i>
+  <div> VIEW </div>
+</div>
+</a>
+
+</div>
+</div>
+<!-- cardbody -->
+<div class="card-body  ps-0 pt-2">
+<div class="cardp ">Jackets</div>
+<div><a href="#" class="itemname "> WHITE TEE</a> </div>
+<div class="cardp">$40.00</div>
+</div>
+</div> 
+
+
+
+    <!-- card2 -->
+    <div class="col-lg-2  col-md-4   col-6">
+      <div class="card " >
+        <img src="img/10.jpg" class="card-img cardborder" alt="...">
+        
+        <div class="card-img-overlay cardborder1 d-flex align-items-center justify-content-around ">
+                  
+          <!-- icon2 -->
+          <a href="#">
+            <div class="iconbox4">
+            <i class="bi bi-search" style="margin-right: 5px;"></i>
+            <div> VIEW </div>
+          </div>
+        </a>
+         </div>
+       </div>
+       <!-- cardbody -->
+       <div class="card-body  ps-0 pt-2">
+        <div class="cardp ">Denim</div>
+        <div><a href="#" class="itemname ">BLACK BLOUSE</a> </div>
+        <div class="cardp">$40.00</div>
+        </div>
+      </div> 
+     
+
+                <!-- card3 -->
+<div class="col-lg-2  col-md-4   col-6">
+<div class="card " >
+<img src="img/11.jpg" class="card-img cardborder" alt="...">
+<div class="ribbon ribboncol2">sale</div>
+<div class="card-img-overlay cardborder1 d-flex align-items-center justify-content-around ">
+        
+<!-- icon2 -->
+<a href="#">
+  <div class="iconbox4">
+  <i class="bi bi-search" style="margin-right: 5px;"></i>
+  <div> VIEW </div>
+</div>
+</a>
+</div>
+</div>
+<!-- cardbody -->
+<div class="card-body  ps-0 pt-2">
+<div class="cardp ">Accessories</div>
+<div><a href="#" class="itemname ">COLLEGE JACKET</a> </div>
+<div class="cardp">$40.00</div>
+</div>
+</div> 
+      <!-- card4 -->
+<div class="col-lg-2  col-md-4   col-6">
+<div class="card " >
+<img src="img/12.jpg" class="card-img cardborder" alt="...">
+
+<div class="card-img-overlay cardborder1 d-flex align-items-center justify-content-around ">
+        
+<!-- icon2 -->
+<a href="#">
+  <div class="iconbox4">
+  <i class="bi bi-search" style="margin-right: 5px;"></i>
+  <div> VIEW </div>
+</div>
+</a>
+</div>
+</div>
+<!-- cardbody -->
+<div class="card-body  ps-0 pt-2">
+<div class="cardp ">Denim</div>
+<div><a href="#" class="itemname ">CARROT-FIT JEANS</a> </div>
+<div class="cardp">$40.00</div>
+</div>
+</div> 
+      <!-- card5 -->
+<div class="col-lg-2  col-md-4   col-6">
+<div class="card " >
+<img src="img/13.jpg" class="card-img cardborder" alt="...">
+
+<div class="card-img-overlay cardborder1 d-flex align-items-center justify-content-around ">
+        
+<!-- icon2 -->
+<a href="#">
+  <div class="iconbox4">
+  <i class="bi bi-search" style="margin-right: 5px;"></i>
+  <div> VIEW </div>
+</div>
+</a>
+</div>
+</div>
+<!-- cardbody -->
+<div class="card-body  ps-0 pt-2">
+<div class="cardp ">Jackets</div>
+<div><a href="#" class="itemname ">STRIPED T-SHIRT</a></div>
+<div class="cardp">$40.00</div>
+</div>
+</div> 
+
+
+      <!-- card6 -->
+<div class="col-lg-2  col-md-4   col-6">
+<div class="card " >
+<img src="img/14.jpg" class="card-img cardborder" alt="...">
+
+<div class="card-img-overlay cardborder1 d-flex align-items-center justify-content-around ">
+        
+<!-- icon2 -->
+<a href="#">
+  <div class="iconbox4">
+  <i class="bi bi-search" style="margin-right: 5px;"></i>
+  <div> VIEW </div>
+</div>
+</a>
+</div>
+</div>
+<!-- cardbody -->
+<div class="card-body  ps-0 pt-2">
+<div class="cardp ">Shirts</div>
+<div><a href="#" class="itemname">SHORT TOP</a> </div>
+<div class="cardp">$40.00</div>
+</div>
+</div>
+
+
+</div>
+
+
+</div>
+<!-- -------------------------------------
+    footer line1
+    ------------------------------ -->
+    <div class="container-fluid mt-5" style="background-color: #f8f9fa;">
+      <div class="container">
+      <div class="row footer1 d-flex align-items-center flex-lg-row   justify-content-md-evenly" >
+        <div class="col-lg-4  col-12 d-flex justify-content-center align-items-center flex-row iconbox2">
+          <div><i class="bi bi-truck iconmain  me-2"></i></div>
+          <div>
+            <div class="iconfoooterdis">FREE SHIPPING & RETURN</div>
+            <div class="iconfoooterdis2">Free Shipping over $300</div>
+          </div>
+          </div>
+          
+        <div class="col-lg-4  col-12  d-flex justify-content-center align-items-center flex-row iconbox2 btr">
+          <div><i class="bi bi-cash-coin iconmain  me-2"></i></div>
+          <div>
+            <div class="iconfoooterdis">MONEY BACK GUARANTEE</div>
+            <div class="iconfoooterdis2">30 Days Money Back Guarantee</div>
+          </div>
+          </div>
+          
+        <div class="col-lg-4  col-12  d-flex justify-content-center align-items-center flex-row iconbox2">
+          <div><i class="bi bi-headphones iconmain  me-2"></i></div>
+          <div>
+            <div class="iconfoooterdis">020-800-456-747</div>
+            <div class="iconfoooterdis2">24/7 Available Support</div>
+          </div>
+          </div>
+          
+        
+       </div>
+      </div>
+      </div>
+      <!-- -------------------------------------
+    footer line2
+    ------------------------------ -->
+    <div class="container-fluid d-flex align-items-center footer2h ">
+      <div class="container">
+        <div class="row">
+          <!-- col1 -->
+          <span class=" col-lg-4 col-12 d-flex justify-content-around flex-column height" >
+            
+              <div class="footer2title" id="footercol1"><span>SELL</span></div>
+               <div class=" footertext">Lorem ipsum dolor sit amet, consectetur <br> adipisicing.</div>
+               <div>
+               <span class=" footicon2 me-3 "><a href="#"><i class="bi bi-twitter"></i></a></span>
+               <span class=" footicon2 me-3"><a href="#"><i class="bi bi-facebook"></i></a></span>
+               <span class=" footicon2 me-3"><a href="#"><i class="bi bi-instagram"></i></a></span>
+               <span class=" footicon2 "><a href="#"><i class="bi bi-linkedin"></i></a></span>
+              </div>
+          </span>
+          <!-- col2 -->
+          <span class="mt-lg-0 mt-md-5 mt-sm-4 col-lg-2 col-md-6 col-12 d-flex justify-content-around flex-column height" >
+            <div class="footer2title">SHOP</div>
+            <div>
+              <div class="footer2dis"><a href="#">For Women</a></div>
+              <div class="footer2dis"><a href="#">For Men</a></div>
+              <div class="footer2dis"><a href="#">Stores</a></div>
+              <div class="footer2dis"><a href="#">Our Blog</a></div>
+              <div class="footer2dis"><a href="#">Shop</a></div>
+            </div>
+          </span>
+          <!-- col3 -->
+          <span class="mt-lg-0  mt-md-5 mt-sm-4 col-lg-2 col-md-6 col-12 d-flex justify-content-around flex-column height" >
+            <div class="footer2title">COMPANY</div>
+            <div>
+              <div class="footer2dis"><a href="#">Login</a></div>
+              <div class="footer2dis"><a href="#">Register</a></div>
+              <div class="footer2dis"><a href="#">Wishlist</a></div>
+              <div class="footer2dis"><a href="#">Our Products</a></div>
+              <div class="footer2dis "><a href="#">Checkouts</a></div>
+            </div>
+          </span>
+           <!-- col4 -->
+           <span class="mt-lg-0  mt-md-5 mt-sm-4 col-lg-4 col-12  d-flex justify-content-around flex-column height" >
+            <div class="footer2title mb-3 mt-5 mb-md-0 mt-md-0 ">DAILY OFFERS & DISCOUNTS</div>
+             <div class=" footertext">Lorem ipsum dolor sit amet, consectetur<br>adipisicing elit. At itaque temporibus.</div>
+             <div class="input-group mb-3 mt-2 ">
+              <input type="text" class="form-control bg-transparent borderright" placeholder="Your Email Address" aria-label="Recipient's username" aria-describedby="button-addon2">
+              <button class="btn btn-outline-secondary borderleft" type="button" id="button-addon2"><i class="bi bi-telegram"></i></button>
+            </div>
+             </span>
+        </div>
+      </div>
+    </div>
+    <!-- --------------------------------footer visa--------------------------------------------- -->
+<div class="container-fluid d-flex align-items-center" style="background-color: #343a40;height: 80px;">    
+     <div class="container" >
+       <div class="row" >
+         <div class="col-lg-6 col-md-6 col-sm-12 d-flex justify-content-lg-start justify-content-md-start justify-content-center copyright">© 2020 Your company. All rights reserved.</div>
+         <div class="col-lg-6 col-md-6 col-sm-12 d-flex justify-content-lg-end justify-content-md-end justify-content-center mt-lg-0 mt-md-0 mt-sm-0 mt-2"><img src="img/icon-pay.svg" alt=""></div>
+       </div>
+     </div>
+</div>
+
+<!-- model search -->
+<div class="modal fade" id="search" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-fullscreen">
+    <div class="modal-content">
+      <div class="modal-header border-0">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body container d-flex align-items-center justify-content-center">
+        <div class="input-group mb-3 " style="height: 50px;">
+          <input type="text" class="form-control bg-transparent borderright" placeholder="What are you looking for ?"  aria-describedby="searchbox1">
+          <button class="btn btn-outline-secondary borderleft" type="button" id="searchbox1"> <i class="bi bi-search"></i></button>
+        </div>
+      </div>
+      </div>
+  </div>
+</div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+  
+</body>
+
+</html>

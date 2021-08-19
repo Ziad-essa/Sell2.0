@@ -1,0 +1,1137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHOP</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/css/ion.rangeSlider.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/hk-grotesk.min.css"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body onresize="test1()">
+    <div class="topbar navbar">
+        <div class="container-fluid ps-4 pe-4 ps-lg-5 pe-lg-5">
+        <div>
+          <span class="d-none d-sm-inline-block phonenumber" >
+            <span style="margin-right: 4px;"><i class="bi bi-telephone"></i></span>
+            <span>020-800-456-747</span>
+          </span>
+          <span class=" d-none  d-sm-none d-md-none d-lg-inline-block  shipping">Free shipping on orders over $300</span>
+         
+        </div>
+        <div> 
+          <span><div class="btn-group">
+            <button type="button" class=" button1 dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+              English
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end ">
+              <li><a class="dropdown-item" href="#">German</a></li>
+              <li><a class="dropdown-item" href="#">French</a></li>
+            </ul>
+          </div></span>
+        <span><div class="btn-group">
+          <button type="button" class=" button2 dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+            USD
+          </button>
+          <ul class="dropdown-menu dropdown-menu-end ">
+            <li><a class="dropdown-item" href="#">EUR</a></li>
+            <li><a class="dropdown-item" href="#">GBP</a></li>
+          </ul>
+        </div></span>
+       </div>
+      </div>
+      </div>
+        <!-- --------------------------------------
+                      navbar2lg
+       ------------------------------------------------>
+       <nav class="navbar navbar-expand-lg navbar-light  my-nav d-lg-flex d-none" id="navbar1" >
+        <div class="container-fluid ps-5 pe-5 ">
+          <div>
+            <a class="navbar-brand " href="#" id="navbar-brand1" style="color: #343a40;"><span>SELL</span></a>
+          </div>
+          <div  class="navbar h-100" style=" width: 65%;">
+            <ul class="navbar-nav d-flex justify-content-around flex-row w-100" >
+              
+              <li class="nav-item"  >
+                <a class="nav-link active" aria-current="page" href="index.html" id="navitem1" style="color: #343a40;">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="shop.html" id="navitem2" style="color: #343a40;">SHOP</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html" id="navitem3" style="color: #343a40;">CONTACT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html" id="navitem4" style="color: #343a40;">ABOUT US</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: #343a40;">
+                  PAGES
+                </a>
+                <ul class="dropdown-menu "  aria-labelledby="navbarDropdown1">
+                  <li><a class="dropdown-item" href="index.html">Home page</a></li>
+                  <li><a class="dropdown-item" href="shop.html">Shop page</a></li>
+                  <li><a class="dropdown-item" href="product.html">Product page</a></li>
+                  <li><a class="dropdown-item" href="cart.html">Cart page</a></li>
+                  <li><a class="dropdown-item" href="orders.html">Orders page</a></li>
+                  <li><a class="dropdown-item" href="order-number.html">Orders number</a></li>
+                  <li><a class="dropdown-item" href="signup-logout.html">Sign up</a></li>
+                  <li><a class="dropdown-item" href="profile.html">Profile page</a></li>
+                  <li><a class="dropdown-item" href="address.html">Address page</a></li>
+                  <li><a class="dropdown-item" href="checkout1.html">Checkout1 page</a></li>
+                  <li><a class="dropdown-item" href="checkout2.html">Checkout2 page</a></li>
+                  <li><a class="dropdown-item" href="checkout3.html">Checkout3 page</a></li>
+                  <li><a class="dropdown-item" href="checkout4.html">Checkout4 page</a></li>
+                  <li><a class="dropdown-item" href="checkout5.html">Checkout5 page</a></li>
+                  <li><a class="dropdown-item" href="contact.html">Contact page</a></li>
+                  <li><a class="dropdown-item" href="about.html">About page</a></li>
+                </ul>
+              </li>
+            
+            </ul> 
+          </div>
+              <div class="d-flex iconbox justify-content-between"  style="color: #343a40;" id="iconbox"> 
+              <i class="bi bi-search icons"  data-bs-toggle="modal" data-bs-target="#search"></i>
+              <a href="signup-logout.html"><i class="bi bi-people icons"></i> </a>
+              <a href="cart.html" class="position-relative"><i class="bi bi-cart icons"></i>
+              <div class="icon-badge"  id="icon-badge1" style="background-color: #343a40; color: white;">3</div>
+              </a>
+              </div>
+        </div>
+      </nav>
+       <!-- --------------------------------------
+                      navbar2 mobile
+       ------------------------------------------------>
+       <nav class="navbar  navbar-light  navbar-nav-scroll d-lg-none d-flex my-nav2 " id="navbar2">
+       <div class="container-fluid ps-4 pe-4">
+         <a class="navbar-brand" href="index.html" id="brand2" style="color: #343a40;"><span>SELL</span></a>
+         <span  type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+           aria-expanded="false" aria-label="Toggle navigation" id="navbutton1" >
+           <i class="bi bi-list" style=" font-size: 20px !important;font-weight: bold !important;color: #343a40;"></i>
+         </span>
+         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+             <li class="nav-item "  >
+               <a class="nav-link active " aria-current="page" href="index.html"
+               style="Font-size:14.4px;;color: #343a40 !important;" >Home</a>
+             </li>
+             <li class="nav-item ">
+               <a class="nav-link" href="shop.html"
+               style="Font-size:14.4px;color: #343a40 !important;">SHOP</a>
+             </li>
+             
+             <li class="nav-item">
+               <a class="nav-link" href="contact.html"
+               style="Font-size:14.4px;;color: #343a40 !important;">CONTACT</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="about.html"
+               style="Font-size:14.4px;;color: #343a40 !important;">ABOUT US</a>
+             </li>
+             <li class="nav-item dropdown">
+               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"
+               style="Font-size:14.4px;;color: #343a40 !important;">
+                 PAGES
+               </a>
+               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="index.html">Home page</a></li>
+                <li><a class="dropdown-item" href="shop.html">Shop page</a></li>
+                <li><a class="dropdown-item" href="product.html">Product page</a></li>
+                <li><a class="dropdown-item" href="cart.html">Cart page</a></li>
+                <li><a class="dropdown-item" href="orders.html">Orders page</a></li>
+                <li><a class="dropdown-item" href="order-number.html">Orders number</a></li>
+                <li><a class="dropdown-item" href="signup-logout.html">Sign up</a></li>
+                <li><a class="dropdown-item" href="profile.html">Profile page</a></li>
+                <li><a class="dropdown-item" href="address.html">Address page</a></li>
+                <li><a class="dropdown-item" href="checkout1.html">Checkout1 page</a></li>
+                <li><a class="dropdown-item" href="checkout2.html">Checkout2 page</a></li>
+                <li><a class="dropdown-item" href="checkout3.html">Checkout3 page</a></li>
+                <li><a class="dropdown-item" href="checkout4.html">Checkout4 page</a></li>
+                <li><a class="dropdown-item" href="checkout5.html">Checkout5 page</a></li>
+                <li><a class="dropdown-item" href="contact.html">Contact page</a></li>
+                <li><a class="dropdown-item" href="about.html">About page</a></li>   
+              </ul>
+             </li>
+           </ul>
+           <div class="d-flex iconbox justify-content-between" id="#iconbox1">
+             <span>
+            <span  data-bs-toggle="modal" data-bs-target="#search"> <i class="bi bi-search icons"></i>
+             <span class="d-none d-sm-inline-block icondescription">SEARCH</span>
+            </span>
+           </span>
+           <span>
+             <a href="signup-logout.html">
+             <i class="bi bi-person-circle icons"></i>
+             <span class="d-none d-sm-inline-block icondescription">LOG IN</span>
+           </a>
+           </span>
+         <span>
+           <a href="cart.html">
+             <i class="bi bi-cart icons"></i>
+             <span class="d-none d-sm-inline-block icondescription">VIEW CART</span>
+           </a>
+           </span>   
+           </div>
+         </div>
+       </div>
+     </nav>
+    
+      <!-- ----------------------------------hero----------------------------- -->
+      <div class="container mt-4">
+          <div class="row">
+              <div class="col-12 d-flex justify-content-center">
+                <nav aria-label="breadcrumb ">
+                  <ol class="breadcrumb mt-3 mb-2">
+                    <li class="breadcrumb-item hero1p"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item active hero1p" aria-current="page">Jackets and tops</li>
+                  </ol>
+                </nav>
+              
+            </div>
+              <div class="col-12 d-flex justify-content-center hero3 mt-4">JACKETS AND TOPS</div>
+              <div class="col-12 text-center hero4 mt-4" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor  incididunt.</div>
+          </div>
+      </div>
+      <!--  -->
+      <div class="container d-flex   mt-5">
+        <div class="row d-flex  flex-lg-row flex-column-reverse ">
+          <div class="col-lg-3">
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+              <div class="accordion-item ps-lg-0 pe-lg-0  ">
+                <div class="accordion-header d-block d-lg-none ps-3 pe-3" id="panelsStayOpen-headingOne">
+                  <div class="porduct-column-title " type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" id="one" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                  PRODUCT CATEGORIES
+                  </div>
+                </div>
+                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                  <div class="accordion-body pt-0 ps-lg-0 pe-lg-0 pb-lg-5 pt-lg-0">
+                    <!-- type1 -->
+                    <ul class="list-group">
+                      <a href="shop.html"> <li class=" list-unstyled list-group-item list-head d-flex justify-content-between">
+                       <span>Jactets</span>
+                       <span class="badge list-head-badge" >120</span>
+                    </li></a>
+                      <ul class="ps-3">
+                      <a href="shop.html"><li class=" list-unstyled list-group-item list-body mt-2">Lorem ipsum</li></a>
+                     <a href="shop.html"> <li class=" list-unstyled list-group-item list-body mt-2">Dolor</li></a>
+                     <a href="shop.html"><li class=" list-unstyled list-group-item list-body mt-2">Sit amet</li></a>
+                     <a href="shop.html"></a> <li class=" list-unstyled list-group-item list-body mt-2">Donec vitae</li></a>
+                    </ul>
+                    </ul>
+                    <!-- type2 -->
+                    <ul class="list-group">
+                      <a href="shop.html"> <li class=" list-unstyled list-group-item list-head d-flex justify-content-between mt-2">
+                       <span >Jeans & chions</span>
+                       <span class="badge list-head-badge" >55</span>
+                    </li></a>
+                      <ul class="ps-3">
+                      <a href="shop.html"><li class=" list-unstyled list-group-item list-body mt-2">Lorem ipsum</li></a>
+                     <a href="shop.html"> <li class=" list-unstyled list-group-item list-body mt-2">Dolor</li></a>
+                     <a href="shop.html"><li class=" list-unstyled list-group-item list-body mt-2">Sit amet</li></a>
+                     <a href="shop.html"></a> <li class=" list-unstyled list-group-item list-body mt-2">Donec vitae</li></a>
+                    </ul>
+                    </ul>
+                    <!-- type3 -->
+                    <ul class="list-group">
+                      <a href="shop.html"> <li class=" list-unstyled list-group-item list-head d-flex justify-content-between mt-2">
+                       <span>Accessories</span>
+                       <span class="badge list-head-badge" >80</span>
+                    </li></a>
+                      <ul class="ps-3">
+                      <a href="shop.html"><li class=" list-unstyled list-group-item list-body mt-2">Lorem ipsum</li></a>
+                     <a href="shop.html"> <li class=" list-unstyled list-group-item list-body mt-2">Dolor</li></a>
+                     <a href="shop.html"><li class=" list-unstyled list-group-item list-body mt-2">Sit amet</li></a>
+                     <a href="shop.html"></a> <li class=" list-unstyled list-group-item list-body mt-2">Donec vitae</li></a>
+                    </ul>
+                    </ul>
+                    
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item bordertop"  >
+                <div class="accordion-header ps-3 pe-3  d-block d-lg-none" id="panelsStayOpen-headingTwo" >
+                  <div class=" collapsed porduct-column-title"  type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                    FILTER BY PRICE
+                  </div>
+                </div>
+                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingTwo">
+                  <div class="accordion-body pb-4 pt-0 pe-3 ps-3 
+                   ps-lg-0 pe-lg-0 pt-lg-4 pb-lg-4 ">
+                    <div class="porduct-column-title d-lg-block d-none pb-lg-2">PRICE</div>
+                    <div>
+                    <div class="">
+                      <input type="text" class="js-range-slider" name="my_range" value="" />
+                  </div>
+                  <div class="d-flex justify-content-between">
+                    <div>
+                    <label for="range1" class="labelbox">From $</label>
+                      <input type="text" id="range1" class="js-input-from" value="0" />
+                    </div>
+                    <div>
+                      <label for="range2" class="labelbox">To $</label>
+                      <input type="text" id="range2" class="js-input-to " value="0" />
+                    </div>
+                  </div>
+                  </div>
+                </div>
+                </div>
+              </div>
+              <div class="accordion-item bordertop"  >
+                <div class="accordion-header ps-3 pe-3 d-block d-lg-none" id="panelsStayOpen-headingThree">
+                  <div class=" collapsed porduct-column-title "  type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                    FILTER BY BRAND
+                  </div>
+                </div>
+                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingThree">
+                  <div class="accordion-body  pt-0 pe-3 ps-3 pb-4
+                   ps-lg-0 pe-lg-0 pt-lg-4 pb-lg-4"  >
+                    <div class=" porduct-column-title d-lg-block d-none pb-lg-2 ">BRAND</div>
+                    
+
+                    <form action="/action_page.php">
+                      <div>
+                      <div>
+                      <input type="checkbox"   id="brand1" name="brand1" value="CalvinKlein" checked>
+
+                      <label for="brand1" class="labelbox">Calvin Klein (18)</label>
+                    </div>
+                  <div class="mt-1">
+                      <input type="checkbox"    id="brand6" name="brand6" value="LeviStrauss">
+                      <label for="brand6" class="labelbox">Levi Strauss (30)</label>
+                    </div>   
+                    
+                  <div class="mt-1">
+                      <input type="checkbox" id="brand3" name="brand3" value="HugoBoss" checked>
+                      <label for="brand3" class="labelbox" >Hugo Boss (120)</label>
+                    </div>
+                  <div class="mt-1">
+                      <input type="checkbox" id="brand4" name="brand4" value="TomiHilfiger">
+                      <label for="brand4" class="labelbox">Tomi Hilfiger (70)</label>
+                    </div>
+                  <div class="mt-1">
+                      <input type="checkbox"    id="brand5" name="brand5" value="TomFord">
+                      <label for="brand5" class="labelbox">Tom Ford (110)</label>
+                    </div>   
+                      
+                    </form>
+                
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item bordertop" style="border-bottom:none !">
+                <div class="accordion-header d-block ps-3 pe-3 d-lg-none" id="panelsStayOpen-headingfour">
+                  <div class=" collapsed porduct-column-title" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapsefour" aria-expanded="false" aria-controls="panelsStayOpen-collapsefour">
+                    FILTER BY SIZE
+                  </div>
+                </div>
+                <div id="panelsStayOpen-collapsefour"  class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingThree">
+                  <div class="accordion-body pb-4 pt-0 pe-3 ps-3  ps-lg-0 pe-lg-0 pt-lg-4 pb-lg-4 ">
+                    <div class="porduct-column-title d-lg-block d-none pb-lg-2">SIZE</div>
+                    <div class="inputstyle1">
+                      <input  type="radio" name="size" id="size1" checked>
+                      <label for="size1" class="sizes">Small</label>
+                    </div>
+                  
+                    <div class="inputstyle1">
+                      <input  type="radio" name="size" id="size2">
+                      <label for="size2" class="sizes">Medium</label>
+                    </div>
+                  
+                    <div class="inputstyle1">
+                      <input  type="radio" name="size" id="size3">
+                      <label for="size3" class="sizes">Large</label>
+                    </div>
+                  
+                    <div class="inputstyle1">
+                      <input  type="radio" name="size" id="size4">
+                      <label for="size4" class="sizes">X-Large</label>
+                    </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        <div class="col-lg-9 ">
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-12 porductgrid mb-4" >Showing <strong style="color: black;">1-12</strong>  of  <strong style="color: black;">158</strong>  products</div>
+            <div class="mb-4 col-lg-4 col-md-4 col-12 porductgrid d-flex justify-content-lg-center justify-content-md-center" >Show
+               <a href="#" class="d-flex justify-content-center porducta" style="border-bottom: 1.5px solid black;">12</a>
+                <a href="#"class="d-flex justify-content-center porducta" > 24</a>
+                 <a href="#" class="d-flex justify-content-center porducta"> All</a>
+                </div>
+            <div class="col-lg-4 col-md-4 col-12 d-flex justify-content-lg-end justify-content-md-end  mb-4">
+              <div class="porductgrid">sort by</div>
+               <select class="form-select form-select1" aria-label="Default select example" >
+                  <option selected>Defult</option>
+                  <option value="1">Rewest first</option>
+                  <option value="2">Rating</option>
+                  <option value="3">Popularity</option>
+            </select>
+          </div>
+          </div>
+          <!-- card -->
+          <div class="row mt-1">
+            <!-- card1 -->
+<div class="col-lg-6 col-xl-4 col-md-6 col-sm-6  col-12">
+  <div class="card " >
+    <img src="img/9.jpg" class="card-img cardborder" alt="...">
+    <div class="ribbon ribboncol1">fresh</div>
+    <div class="card-img-overlay cardborder1 d-flex align-items-center justify-content-around ">
+              
+      <!-- icon1 -->
+      <a href="#"><i class="bi bi-cart-fill iconbox3"></i></a>
+      <!-- icon2 -->
+      <a href="product.html">
+        <div class="iconbox4">
+        <i class="bi bi-search" style="margin-right: 5px;"></i>
+        <div> VIEW </div>
+      </div>
+    </a>
+      <!-- icon3 -->
+      <i class="bi bi-arrows-expand iconbox3" data-bs-toggle="modal" data-bs-target="#product-details"></i>
+    </div>
+   </div>
+   <!-- cardbody -->
+   <div class="card-body  ps-0 pt-2">
+    <div class="cardp ">Jackets</div>
+    <div><a href="#" class="itemname "> WHITE TEE</a> </div>
+    <div class="cardp">$40.00</div>
+    </div>
+  </div> 
+
+  
+  
+          <!-- card2 -->
+          <div class="col-lg-6 col-xl-4 col-md-6 col-sm-6 col-12">
+            <div class="card " >
+              <img src="img/10.jpg" class="card-img cardborder" alt="...">
+              
+              <div class="card-img-overlay cardborder1 d-flex align-items-center justify-content-around ">
+                        
+                <!-- icon1 -->
+                <a href="#"><i class="bi bi-cart-fill iconbox3"></i></a>
+                <!-- icon2 -->
+                <a href="product.html">
+                  <div class="iconbox4">
+                  <i class="bi bi-search" style="margin-right: 5px;"></i>
+                  <div> VIEW </div>
+                </div>
+              </a>
+                <!-- icon3 -->
+                <i class="bi bi-arrows-expand iconbox3" data-bs-toggle="modal" data-bs-target="#product-details"></i>
+              </div>
+             </div>
+             <!-- cardbody -->
+             <div class="card-body  ps-0 pt-2">
+              <div class="cardp ">Denim</div>
+              <div><a href="#" class="itemname ">BLACK BLOUSE</a> </div>
+              <div class="cardp">$40.00</div>
+              </div>
+            </div> 
+           
+
+                      <!-- card3 -->
+<div class="col-lg-6 col-xl-4 col-md-6 col-sm-6 col-12">
+  <div class="card " >
+    <img src="img/11.jpg" class="card-img cardborder" alt="...">
+    <div class="ribbon ribboncol2">sale</div>
+    <div class="card-img-overlay cardborder1 d-flex align-items-center justify-content-around ">
+              
+      <!-- icon1 -->
+      <a href="#"><i class="bi bi-cart-fill iconbox3"></i></a>
+      <!-- icon2 -->
+      <a href="product.html">
+        <div class="iconbox4">
+        <i class="bi bi-search" style="margin-right: 5px;"></i>
+        <div> VIEW </div>
+      </div>
+    </a>
+      <!-- icon3 -->
+      <i class="bi bi-arrows-expand iconbox3" data-bs-toggle="modal" data-bs-target="#product-details"></i>
+    </div>
+   </div>
+   <!-- cardbody -->
+   <div class="card-body  ps-0 pt-2">
+    <div class="cardp ">Accessories</div>
+    <div><a href="#" class="itemname ">COLLEGE JACKET</a> </div>
+    <div class="cardp">$40.00</div>
+    </div>
+  </div> 
+            <!-- card4 -->
+<div class="col-lg-6 col-xl-4 col-md-6 col-sm-6 col-12">
+  <div class="card " >
+    <img src="img/12.jpg" class="card-img cardborder" alt="...">
+    
+    <div class="card-img-overlay cardborder1 d-flex align-items-center justify-content-around ">
+              
+      <!-- icon1 -->
+      <a href="#"><i class="bi bi-cart-fill iconbox3"></i></a>
+      <!-- icon2 -->
+      <a href="product.html">
+        <div class="iconbox4">
+        <i class="bi bi-search" style="margin-right: 5px;"></i>
+        <div> VIEW </div>
+      </div>
+    </a>
+      <!-- icon3 -->
+      <i class="bi bi-arrows-expand iconbox3" data-bs-toggle="modal" data-bs-target="#product-details"></i>
+    </div>
+   </div>
+   <!-- cardbody -->
+   <div class="card-body  ps-0 pt-2">
+    <div class="cardp ">Denim</div>
+    <div><a href="#" class="itemname ">CARROT-FIT JEANS</a> </div>
+    <div class="cardp">$40.00</div>
+    </div>
+  </div> 
+            <!-- card5 -->
+<div class="col-lg-6 col-xl-4 col-md-6 col-sm-6 col-12">
+  <div class="card " >
+    <img src="img/13.jpg" class="card-img cardborder" alt="...">
+    
+    <div class="card-img-overlay cardborder1 d-flex align-items-center justify-content-around ">
+              
+      <!-- icon1 -->
+      <a href="#"><i class="bi bi-cart-fill iconbox3"></i></a>
+      <!-- icon2 -->
+      <a href="product.html">
+        <div class="iconbox4">
+        <i class="bi bi-search" style="margin-right: 5px;"></i>
+        <div> VIEW </div>
+      </div>
+    </a>
+      <!-- icon3 -->
+      <i class="bi bi-arrows-expand iconbox3" data-bs-toggle="modal" data-bs-target="#product-details"></i>
+    </div>
+   </div>
+   <!-- cardbody -->
+   <div class="card-body  ps-0 pt-2">
+    <div class="cardp ">Jackets</div>
+    <div><a href="#" class="itemname ">STRIPED T-SHIRT</a></div>
+    <div class="cardp">$40.00</div>
+    </div>
+  </div> 
+
+
+            <!-- card6 -->
+<div class="col-lg-6 col-xl-4 col-md-6 col-sm-6 col-12">
+  <div class="card " >
+    <img src="img/14.jpg" class="card-img cardborder" alt="...">
+    
+    <div class="card-img-overlay cardborder1 d-flex align-items-center justify-content-around ">
+              
+      <!-- icon1 -->
+      <a href="#"><i class="bi bi-cart-fill iconbox3"></i></a>
+      <!-- icon2 -->
+      <a href="product.html">
+        <div class="iconbox4">
+        <i class="bi bi-search" style="margin-right: 5px;"></i>
+        <div> VIEW </div>
+      </div>
+    </a>
+      <!-- icon3 -->
+      <i class="bi bi-arrows-expand iconbox3" data-bs-toggle="modal" data-bs-target="#product-details"></i>
+    </div>
+   </div>
+   <!-- cardbody -->
+   <div class="card-body  ps-0 pt-2">
+    <div class="cardp ">Shirts</div>
+    <div><a href="#" class="itemname">SHORT TOP</a> </div>
+    <div class="cardp">$40.00</div>
+    </div>
+  </div>
+  
+  
+
+            <!-- card7 -->
+<div class="col-lg-6 col-xl-4 col-md-6 col-sm-6 col-12">
+  <div class="card " >
+    <img src="img/15.jpg" class="card-img cardborder" alt="...">
+    <div class="ribbon ribboncol3">sold out</div>
+    <div class="card-img-overlay cardborder1 d-flex align-items-center justify-content-around ">
+              
+      <!-- icon1 -->
+      <a href="#"><i class="bi bi-cart-fill iconbox3"></i></a>
+      <!-- icon2 -->
+      <a href="product.html">
+        <div class="iconbox4">
+        <i class="bi bi-search" style="margin-right: 5px;"></i>
+        <div> VIEW </div>
+      </div>
+    </a>
+      <!-- icon3 -->
+      <i class="bi bi-arrows-expand iconbox3" data-bs-toggle="modal" data-bs-target="#product-details"></i>
+    </div>
+   </div>
+   <!-- cardbody -->
+   <div class="card-body  ps-0 pt-2">
+    <div class="cardp ">Sweaters</div>
+    <div><a href="#" class="itemname ">ETHNIC SWEATER</a> </div>
+    <div class="cardp">$40.00</div>
+    </div>
+  </div> 
+
+
+          <!-- card8 -->
+          <div class="col-lg-6 col-xl-4 col-md-6 col-sm-6 col-12">
+            <div class="card " >
+              <img src="img/16.jpg" class="card-img cardborder" alt="...">
+              
+              <div class="card-img-overlay cardborder1 d-flex align-items-center justify-content-around ">
+                        
+                <!-- icon1 -->
+                <a href="#"><i class="bi bi-cart-fill iconbox3"></i></a>
+                <!-- icon2 -->
+                <a href="product.html">
+                  <div class="iconbox4">
+                  <i class="bi bi-search" style="margin-right: 5px;"></i>
+                  <div> VIEW </div>
+                </div>
+              </a>
+                <!-- icon3 -->
+                <i class="bi bi-arrows-expand iconbox3" data-bs-toggle="modal" data-bs-target="#product-details"></i>
+              </div>
+             </div>
+             <!-- cardbody -->
+             <div class="card-body  ps-0 pt-2">
+              <div class="cardp ">Coats</div>
+              <div><a href="#" class="itemname">BEIGE</a> </div>
+              <div class="cardp">$40.00</div>
+              </div>
+            </div> 
+          
+
+
+          <!-- card9 -->
+          <div class="col-lg-6 col-xl-4 col-md-6 col-sm-6 col-12">
+            <div class="card " >
+              <img src="img/17.jpg" class="card-img cardborder" alt="...">
+              
+              <div class="card-img-overlay cardborder1 d-flex align-items-center justify-content-around ">
+                        
+                <!-- icon1 -->
+                <a href="#"><i class="bi bi-cart-fill iconbox3"></i></a>
+                <!-- icon2 -->
+                <a href="product.html">
+                  <div class="iconbox4">
+                  <i class="bi bi-search" style="margin-right: 5px;"></i>
+                  <div> VIEW </div>
+                </div>
+              </a>
+                <!-- icon3 -->
+                <i class="bi bi-arrows-expand iconbox3" data-bs-toggle="modal" data-bs-target="#product-details"></i>
+              </div>
+             </div>
+             <!-- cardbody -->
+             <div class="card-body  ps-0 pt-2">
+              <div class="cardp ">Denim</div>
+              <div><a href="#" class="itemname ">SHIRT</a> </div>
+              <div class="cardp">$40.00</div>
+              </div>
+            </div> 
+          
+ 
+                      <!-- card10 -->
+<div class="col-lg-6 col-xl-4 col-md-6 col-sm-6 col-12">
+  <div class="card " >
+    <img src="img/18.jpg" class="card-img cardborder" alt="...">
+    
+    <div class="card-img-overlay cardborder1 d-flex align-items-center justify-content-around ">
+              
+      <!-- icon1 -->
+      <a href="#"><i class="bi bi-cart-fill iconbox3"></i></a>
+      <!-- icon2 -->
+      <a href="product.html">
+        <div class="iconbox4">
+        <i class="bi bi-search" style="margin-right: 5px;"></i>
+        <div> VIEW </div>
+      </div>
+    </a>
+      <!-- icon3 -->
+      <i class="bi bi-arrows-expand iconbox3" data-bs-toggle="modal" data-bs-target="#product-details"></i>
+    </div>
+   </div>
+   <!-- cardbody -->
+   <div class="card-body  ps-0 pt-2">
+    <div class="cardp ">Denim</div>
+    <div><a href="#" class="itemname ">BLOUSE</a> </div>
+    <div class="cardp">$40.00</div>
+    </div>
+  </div> 
+            <!-- card11 -->
+<div class="col-lg-6 col-xl-4 col-md-6 col-sm-6 col-12">
+  <div class="card " >
+    <img src="img/19.jpg" class="card-img cardborder" alt="...">
+    
+    <div class="card-img-overlay cardborder1 d-flex align-items-center justify-content-around ">
+              
+      <!-- icon1 -->
+      <a href="#"><i class="bi bi-cart-fill iconbox3"></i></a>
+      <!-- icon2 -->
+      <a href="product.html">
+        <div class="iconbox4">
+        <i class="bi bi-search" style="margin-right: 5px;"></i>
+        <div> VIEW </div>
+      </div>
+    </a>
+      <!-- icon3 -->
+      <i class="bi bi-arrows-expand iconbox3" data-bs-toggle="modal" data-bs-target="#product-details"></i>
+    </div>
+   </div>
+   <!-- cardbody -->
+   <div class="card-body  ps-0 pt-2">
+    <div class="cardp ">Jackets</div>
+    <div><a href="#" class="itemname "> WHITE TEE</a> </div>
+    <div class="cardp">$40.00</div>
+    </div>
+  </div> 
+            <!-- card12 -->
+<div class="col-lg-6 col-xl-4 col-md-6 col-sm-6 col-12">
+  <div class="card " >
+    <img src="img/20.jpg" class="card-img cardborder" alt="...">
+
+    <div class="card-img-overlay cardborder1 d-flex align-items-center justify-content-around ">
+              
+      <!-- icon1 -->
+      <a href="#"><i class="bi bi-cart-fill iconbox3"></i></a>
+      <!-- icon2 -->
+      <a href="product.html">
+        <div class="iconbox4">
+        <i class="bi bi-search" style="margin-right: 5px;"></i>
+        <div> VIEW </div>
+      </div>
+    </a>
+      <!-- icon3 -->
+      <i class="bi bi-arrows-expand iconbox3" data-bs-toggle="modal" data-bs-target="#product-details"></i>
+    </div>
+   </div>
+   <!-- cardbody -->
+   <div class="card-body  ps-0 pt-2">
+    <div class="cardp ">Jackets</div>
+    <div><a href="#" class="itemname "> WHITE TEE</a> </div>
+    <div class="cardp">$40.00</div>
+    </div>
+  </div> 
+
+
+
+          </div>
+          <!-- pages -->
+          <div class="row mt-4 mb-4">
+            <nav aria-label="...">
+              <ul class="pagination justify-content-center">
+                <li class="page-item ">
+                  <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+                </li>
+                <li class="page-item active" aria-current="page"><a class="page-link" href="#">1</a></li>
+                <li class="page-item " >
+                  <a class="page-link" href="#">2</a>
+                </li>
+                <li class="page-item " >
+                  <a class="page-link" href="#">3</a>
+                </li>
+                <li class="page-item " >
+                  <a class="page-link" href="#">4</a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">5</a></li>
+                <li class="page-item">
+                  <a class="page-link" href="#">Next</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        
+      </div>
+      </div>
+      <!-- -------------------------------------
+    footer line1
+    ------------------------------ -->
+    <div class="container-fluid mt-5" style="background-color: #f8f9fa;">
+      <div class="container">
+      <div class="row footer1 d-flex align-items-center flex-lg-row   justify-content-md-evenly" >
+        <div class="col-lg-4  col-12 d-flex justify-content-center align-items-center flex-row iconbox2">
+          <div><i class="bi bi-truck iconmain  me-2"></i></div>
+          <div>
+            <div class="iconfoooterdis">FREE SHIPPING & RETURN</div>
+            <div class="iconfoooterdis2">Free Shipping over $300</div>
+          </div>
+          </div>
+          
+        <div class="col-lg-4  col-12  d-flex justify-content-center align-items-center flex-row iconbox2 btr">
+          <div><i class="bi bi-cash-coin iconmain  me-2"></i></div>
+          <div>
+            <div class="iconfoooterdis">MONEY BACK GUARANTEE</div>
+            <div class="iconfoooterdis2">30 Days Money Back Guarantee</div>
+          </div>
+          </div>
+          
+        <div class="col-lg-4  col-12  d-flex justify-content-center align-items-center flex-row iconbox2">
+          <div><i class="bi bi-headphones iconmain  me-2"></i></div>
+          <div>
+            <div class="iconfoooterdis">020-800-456-747</div>
+            <div class="iconfoooterdis2">24/7 Available Support</div>
+          </div>
+          </div>
+          
+        
+       </div>
+      </div>
+      </div>
+      <!-- -------------------------------------
+    footer line2
+    ------------------------------ -->
+    <div class="container-fluid d-flex align-items-center footer2h ">
+      <div class="container">
+        <div class="row">
+          <!-- col1 -->
+          <span class=" col-lg-4 col-12 d-flex justify-content-around flex-column height" >
+            
+              <div class="footer2title" id="footercol1"><span>SELL</span></div>
+               <div class=" footertext">Lorem ipsum dolor sit amet, consectetur <br> adipisicing.</div>
+               <div>
+               <span class=" footicon2 me-3 "><a href="#"><i class="bi bi-twitter"></i></a></span>
+               <span class=" footicon2 me-3"><a href="#"><i class="bi bi-facebook"></i></a></span>
+               <span class=" footicon2 me-3"><a href="#"><i class="bi bi-instagram"></i></a></span>
+               <span class=" footicon2 "><a href="#"><i class="bi bi-linkedin"></i></a></span>
+              </div>
+          </span>
+          <!-- col2 -->
+          <span class="mt-lg-0 mt-md-5 mt-sm-4 col-lg-2 col-md-6 col-12 d-flex justify-content-around flex-column height" >
+            <div class="footer2title">SHOP</div>
+            <div>
+              <div class="footer2dis"><a href="#">For Women</a></div>
+              <div class="footer2dis"><a href="#">For Men</a></div>
+              <div class="footer2dis"><a href="#">Stores</a></div>
+              <div class="footer2dis"><a href="#">Our Blog</a></div>
+              <div class="footer2dis"><a href="#">Shop</a></div>
+            </div>
+          </span>
+          <!-- col3 -->
+          <span class="mt-lg-0  mt-md-5 mt-sm-4 col-lg-2 col-md-6 col-12 d-flex justify-content-around flex-column height" >
+            <div class="footer2title">COMPANY</div>
+            <div>
+              <div class="footer2dis"><a href="#">Login</a></div>
+              <div class="footer2dis"><a href="#">Register</a></div>
+              <div class="footer2dis"><a href="#">Wishlist</a></div>
+              <div class="footer2dis"><a href="#">Our Products</a></div>
+              <div class="footer2dis"><a href="#">Checkouts</a></div>
+            </div>
+          </span>
+           <!-- col4 -->
+           <span class="mt-lg-0  mt-md-5 mt-sm-4 col-lg-4 col-12  d-flex justify-content-around flex-column height" >
+            <div class="footer2title">DAILY OFFERS & DISCOUNTS</div>
+             <div class=" footertext">Lorem ipsum dolor sit amet, consectetur<br>adipisicing elit. At itaque temporibus.</div>
+             <div class="input-group mb-3 ">
+              <input type="text" class="form-control bg-transparent borderright" placeholder="Your Email Address" aria-label="Recipient's username" aria-describedby="button-addon2">
+              <button class="btn btn-outline-secondary borderleft" type="button" id="button-addon2"><i class="bi bi-telegram"></i></button>
+            </div>
+             </span>
+        </div>
+      </div>
+    </div>
+    <!-- --------------------------------footer visa--------------------------------------------- -->
+<div class="container-fluid d-flex align-items-center" style="background-color: #343a40;height: 80px;">    
+     <div class="container" >
+       <div class="row" >
+         <div class="col-lg-6 col-md-6 col-sm-12 d-flex justify-content-lg-start justify-content-md-start justify-content-center copyright">© 2020 Your company. All rights reserved.</div>
+         <div class="col-lg-6 col-md-6 col-sm-12 d-flex justify-content-lg-end justify-content-md-end justify-content-center mt-lg-0 mt-md-0 mt-sm-0 mt-2"><img src="img/icon-pay.svg" alt=""></div>
+       </div>
+     </div>
+</div>
+<!-- model search -->
+<div class="modal fade" id="search" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-fullscreen">
+    <div class="modal-content">
+      <div class="modal-header border-0">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body container d-flex align-items-center justify-content-center">
+        <div class="input-group mb-3 " style="height: 50px;">
+          <input type="text" class="form-control bg-transparent borderright" placeholder="What are you looking for ?"  aria-describedby="searchbox1">
+          <button class="btn btn-outline-secondary borderleft" type="button" id="searchbox1"> <i class="bi bi-search"></i></button>
+        </div>
+      </div>
+      </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="product-details"  tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog  modal-xl">
+    <div class="modal-content position-relative">
+    
+        <button type="button" class="  close-model2" data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x-lg"></i></button>
+      
+      <div class="modal-body ps-0 pe-0">
+        <div class="container-fluid ">
+          <div class="row  ">
+              <!-- product img -->
+              <div class="col-lg-6  col-md-12">
+                  <div id="carouselExampleDark" class="carousel  slide" data-bs-ride="carousel">
+                      <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                      </div>
+                      <div class="carousel-inner">
+                        <div class="carousel-item carousel-item2 active" >
+                          <img src="img/24.jpg" class="d-block h-100 w-100 " style="object-fit: cover;" alt="...">
+                          </div>
+                        <div class="carousel-item carousel-item2 " >
+                          <img src="img/23.jpg" class="d-block h-100 w-100" style="object-fit: cover;" alt="...">
+                          
+                        </div>
+                        <div class="carousel-item carousel-item2">
+                          <img src="img/25.jpg" class="d-block w-100 h-100" style="object-fit: cover;" alt="...">
+                          
+                        </div>
+                        <div class="carousel-item carousel-item2">
+                          <img src="img/22.jpg" class="d-block w-100 h-100" style="object-fit: cover;" alt="...">
+                          
+                        </div>
+                        <div class="carousel-item carousel-item2">
+                          <img src="img/21.jpg" class="d-block w-100 h-100" style="object-fit: cover;" alt="...">
+                          
+                        </div>
+                      </div>
+                     </div>
+              </div>
+  
+  
+                  <!-- porduct details --> 
+              <div class="col-lg-6  col-md-12 ps-lg-5 ps-xl-5  ">
+                
+                <h1 class="hero2p mb-4">Modern Jacket</h1>
+  
+                <div class="d-flex justify-content-lg-between justify-content-md-between justify-content-sm-between
+                 flex-lg-row flex-md-row flex-sm-row flex-column
+                 col-lg-12 col-xl-9 col-md-12  mb-4">
+                  <div class="mb-2  mb-sm-0 mb-md-0 mb-lg-0">
+                    <span class="sell-price">$65.00</span>
+                    <span class="real-price"> $90.00</span>
+                  </div>
+                  <div>
+                    <span >
+                      <i class="review-icon bi bi-star-fill"></i>
+                      <i class="review-icon bi bi-star-fill"></i>
+                      <i class="review-icon bi bi-star-fill"></i>
+                      <i class="review-icon bi bi-star-fill"></i>
+                      <i class="review-icon bi bi-star-fill" style="color: #dee2e6;"></i>
+                    </span>
+                    <span class="review-num">
+                      25 REVIEWS
+                    </span>
+                  </div>
+                </div>
+  
+  
+                <p class="product-dis col-lg-9 col-xl-9 col-md-12 mb-4">
+                  Lorem ipsum dolor sit amet,
+                   consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                   Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                </p>
+                <div class="row">
+                <div class="col-lg-12 col-xl-12 col-md-6 mb-4">
+                  <form action="action_page.php" class="product-det">
+                  <div class="mb-1">
+                    <span class="sizep">SIZE</span>
+                    <span class="size2p">(required)</span>
+                  </div>
+                  <input type="radio" id="one" name="size" value="small">
+                  <label for="one">SMALL</label>
+                
+                  <input type="radio" id="two" name="size" value="medium">
+                  <label for="two" style="width: 80px;">MEDIUM</label>
+                
+                  <input type="radio" id="three" name="size" value="large">
+                  <label for="three">LARGE</label>
+                </form>
+                </div>
+                <div class="col-lg-12 col-xl-12 col-md-6 mb-4">
+                  <form action="action_page.php" class="product-det">
+                    <div class="mb-1">
+                      <span class="sizep">TYPE</span>
+                      <span class="size2p">(required)</span>
+                    </div>
+                    <input type="radio" id="four" name="type" value="hoodie">
+                    <label for="four">HOODIE</label>
+                  
+                    <input type="radio" id="five" name="type" value="college">
+                    <label for="five" style="width: 80px;">COLLEGE</label>
+                  
+                    
+                  </form>
+  
+                </div>
+                <div class="col-12 mb-4">
+                  <form action="action_page.php" class="test2">
+                    <div class="mb-1" >
+                      <span class="sizep">COLOUR</span>
+                      <span class="size2p">(required)</span>
+                    </div>
+  
+                    <input type="radio" id="six" name="color" value="lightblue">
+                    <label for="six">
+                    <div class="colors lightblue"></div>
+  
+                    </label>
+                  
+                    <input type="radio" id="seven" name="color" value="white">
+                    <label for="seven">
+                      <div class="colors white"></div>
+                    </label>
+                  
+                    <input type="radio" id="eight" name="color" value="lightred">
+                    <label for="eight">
+                      <div class="colors lightred"></div>
+                    </label>
+                  
+                    <input type="radio" id="nine" name="color" value="pup">
+                    <label for="nine">
+                      <div class="colors pup"></div>
+                    </label>
+                  
+                    
+                  </form>
+  
+                </div>
+              </div>
+  
+  
+              <label for="item1" class="d-block">
+                <div class="mb-1" >
+                  <span class="sizep">ITEMS</span>
+                  <span class="size2p">(required)</span>
+                </div>
+              </label>
+                  <input type="number" id="item1" value="3" class="cart-input mb-4" >
+              
+  
+  
+              <div class="row ">
+                <div class="col-9 align-items-lg-center align-items-md-center align-items-sm-center  d-flex flex-lg-row  flex-md-row flex-sm-row flex-column">
+                
+                  <a href="#">
+                    <button class="me-2 mb-2  mb-sm-0 mb-md-0 mb-lg-0 bigone">
+                    <i class="bi bi-cart-plus-fill"></i>
+                    <span>ADD TO CART</span>
+                  </button>
+                </a>
+                <a href="#">
+                  <button class="smallone mb-4 mb-lg-0">
+                    <i class="bi bi-heart"></i>
+                    <span>ADD TO WISHLIST</span>
+                  </button>
+                </a>
+              </div>
+              </div>
+              </div>
+          </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--jQuery-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
+<!--Plugin JavaScript file-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/js/ion.rangeSlider.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+      
+    <script src="js/main.js"></script>
+    <script>
+
+      var $range = $(".js-range-slider"),
+          $inputFrom = $(".js-input-from"),
+          $inputTo = $(".js-input-to"),
+          instance,
+          min = 0,
+          max = 250,
+          from = 0,
+          to = 0;
+      
+      $range.ionRangeSlider({
+          skin: "flat",
+          type: "double",
+          min: min,
+          max: max,
+          from: 40,
+          to: 110,
+          onStart: updateInputs,
+          onChange: updateInputs
+      });
+      instance = $range.data("ionRangeSlider");
+      
+      function updateInputs (data) {
+        from = data.from;
+          to = data.to;
+          
+          $inputFrom.prop("value", from);
+          $inputTo.prop("value", to);	
+      }
+      
+      $inputFrom.on("input", function () {
+          var val = $(this).prop("value");
+          
+          // validate
+          if (val < min) {
+              val = min;
+          } else if (val > to) {
+              val = to;
+          }
+          
+          instance.update({
+              from: val
+          });
+      });
+      
+      $inputTo.on("input", function () {
+          var val = $(this).prop("value");
+          
+          // validate
+          if (val < from) {
+              val = from;
+          } else if (val > max) {
+              val = max;
+          }
+          
+          instance.update({
+              to: val
+          });
+      });
+      </script>
+</body>
+
+
+</html>
